@@ -26,7 +26,7 @@
 }
 
   function signInWithGoogle(){            // sign in with google
-    console.log('btn call')
+    // console.log('btn call')
     firebase.auth().signInWithPopup(provider).then(res =>{
         window.location = "index2.html";
     }).catch(e=>{
